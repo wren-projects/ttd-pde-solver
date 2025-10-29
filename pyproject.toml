@@ -1,0 +1,19 @@
+[project]
+name = "ttd-pde"
+version = "0.1.0"
+description = "Library for working with tensors"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["numpy~=2.3"]
+
+[dependency-groups]
+dev = ["ruff>=0.9.0", "basedpyright>=1.28"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["numpy-ttd", "ttd-pde-solver"]
+
+[project.scripts]
