@@ -1,0 +1,9 @@
+words = [
+    "asarray",
+    "getitem",
+    "ndarray",
+    "ndarrays",
+    "npt",
+    "ttd",
+    "ufunc",
+]
